@@ -59,7 +59,6 @@ chmod +x sqlmap_sheet.sh
 # 5. Jalankan
 ./sqlmap_sheet.sh
 
-
 🍏 2. Instalasi di macOS
 
 # 1. Pastikan Homebrew terinstall, lalu install dependencies
@@ -74,7 +73,6 @@ chmod +x sqlmap_sheet.sh
 
 # 4. Jalankan
 ./sqlmap_sheet.sh
-
 
 📱 3. Instalasi di Termux (Android)
 
@@ -97,26 +95,26 @@ chmod +x sqlmap_sheet.sh
 # 6. Jalankan
 ./sqlmap_sheet.sh
 
-
 🚀 Cara Menjalankan
 A. Mode Interaktif (Sangat Direkomendasikan)
 
 Cukup jalankan script tanpa argumen:
+
 ./sqlmap_sheet.sh
 
 Alur Penggunaan Cepat:
 
-  1.  Pilih s untuk Set Target. Masukkan URL target Anda.
+ 1.   Pilih s untuk Set Target. Masukkan URL target Anda.
 
-  2.  Pilih 1 untuk Deteksi Dasar.
+ 2.   Pilih 1 untuk Deteksi Dasar.
 
-  3.  Jika terdeteksi WAF, gunakan menu 5 (WAF Bypass).
+ 3.   Jika terdeteksi WAF, gunakan menu 5 (WAF Bypass).
 
-  4.  Gunakan menu 2 (Enumerasi) atau d (Dump) untuk mengekstrak data.
+ 4.   Gunakan menu 2 (Enumerasi) atau d (Dump) untuk mengekstrak data.
 
-  5.  Pilih x di akhir sesi untuk Export Laporan.
+ 5.   Pilih x di akhir sesi untuk Export Laporan.
 
-  B. Mode Batch (Untuk Otomasi / Pipeline CI/CD)
+B. Mode Batch (Untuk Otomasi / Pipeline CI/CD)
 
 Jika Anda ingin menjalankan SQLMap tanpa masuk ke menu:
 # Format: ./sqlmap_sheet.sh --batch-run <URL> [mode]
@@ -130,9 +128,11 @@ Jika Anda ingin menjalankan SQLMap tanpa masuk ke menu:
 C. Cek Kesehatan (Dependency Check)
 
 Untuk memastikan semua alat (SQLMap, Python, Curl) sudah terinstall dengan benar:
+
 ./sqlmap_sheet.sh --check
 
 🗺️ Peta Menu Interaktif
+
 Menu	Fungsi	Keterangan
 s	Set Target	Input URL, POST data, Cookie, Header, Level, Risk, Threads.
 l	Load Session	Memuat konfigurasi target yang terakhir disimpan.
@@ -147,7 +147,8 @@ q	SQL Query	Menjalankan query manual, misal: SELECT * FROM users.
 p	Proxy & Anon	Set proxy ke Burp Suite (127.0.0.1:8080) atau aktifkan Tor.
 a	Advanced Flags	Ubah --dbms, --csrf-token, --eval, dll.
 x	Export Laporan	Menyimpan log aktivitas dan metadata target ke .md / .txt.
-!	Keluar	Keluar dari aplikasi dengan aman (melepas wake-lock).
+!	Keluar	Keluar dari aplikasi dengan aman (melepas wake-lock)
+
 ⚠️ Disclaimer & Etika (Wajib Dibaca)
 
     1. IZIN ADALAH SEGALANYA.
@@ -161,6 +162,6 @@ x	Export Laporan	Menyimpan log aktivitas dan metadata target ke .md / .txt.
 
     3. Penulis (Pixel_Detective) TIDAK BERTANGGUNG JAWAB atas segala penyalahgunaan alat ini. Segala risiko ditanggung oleh pengguna.
 
-<div align="center"> <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> </div>
+    <div align="center"> <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> </div>
 
-<img src="screenshoot2.png" alt="SQLMAP_SHEET Dump Menu" width="800"/>
+    
