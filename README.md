@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 <div align="center">
 
 # 🚀 SQLMAP_SHEET by Pixel_Detective
@@ -323,5 +323,5 @@ x	Export Laporan	Menyimpan log aktivitas dan metadata target ke .md / .txt.
 
     3. Penulis (Pixel_Detective) TIDAK BERTANGGUNG JAWAB atas segala penyalahgunaan alat ini. Segala risiko ditanggung oleh pengguna.
 
-    <div align="center"> <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> </div> EOF 
+    <div align="center"> <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> </div> 
 
