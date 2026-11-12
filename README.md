@@ -43,7 +43,7 @@ Dibuat dengan antarmuka interaktif yang modern, mendukung *Session Management*, 
 Pilih sistem operasi yang Anda gunakan:
 
 ### 🐧 1. Instalasi di Linux (Debian/Ubuntu/Kali)
-```bash
+
 # 1. Update repositori
 sudo apt update && sudo apt install -y git curl python3 python3-pip
 
@@ -178,19 +178,20 @@ Dibuat dengan antarmuka interaktif yang modern, mendukung *Session Management*, 
 </div>
 
 ---
-
-## ✨ Fitur Utama
-
-- 🎯 **Deteksi & Enumerasi:** Deteksi dasar, ambil nama DB, tabel, dan kolom.
-- 💾 **Submenu DUMP Lengkap:** Dump semua database, tabel, kolom, hingga data spesifik dengan filter `WHERE`.
-- 🛡️ **WAF Bypass:** 7 preset *tamper scripts* (Cloudflare, AWS, ModSecurity, dll) untuk menembus WAF.
-- 🔑 **SQL Query Kustom:** Jalankan query manual (`--sql-query`) atau dari file (`--sql-file`).
-- 🕵️ **Proxy & Anonymizer:** Dukungan Burp Suite, rotasi proxy dari file, dan Tor Network.
-- ⚙️ **Advanced Flags:** Akses cepat ke `--parse-errors`, `--smart`, `--hex`, `--dbms`, dan `--csrf-token`.
-- 📱 **Termux-Ready:** Deteksi otomatis layar sempit, path `$HOME`, dan fitur `termux-wake-lock` agar scan tidak terputus saat layar mati.
-- 📄 **Export Laporan:** Simpan hasil pentest ke format Markdown (`.md`) atau Text (`.txt`).
-- 💾 **Session Save/Load:** Simpan konfigurasi target, lanjutkan kapan saja tanpa setup ulang.
-
+<div alig-"center">
+<h2>## ✨ Fitur Utama</h2>
+<p>
+- 🎯 **Deteksi & Enumerasi:** Deteksi dasar, ambil nama DB, tabel, dan kolom.<br>
+- 💾 **Submenu DUMP Lengkap:** Dump semua database, tabel, kolom, hingga data spesifik dengan filter `WHERE`.<br>
+- 🛡️ **WAF Bypass:** 7 preset *tamper scripts* (Cloudflare, AWS, ModSecurity, dll) untuk menembus WAF.<br>
+- 🔑 **SQL Query Kustom:** Jalankan query manual (`--sql-query`) atau dari file (`--sql-file`).<br>
+- 🕵️ **Proxy & Anonymizer:** Dukungan Burp Suite, rotasi proxy dari file, dan Tor Network.<br>
+- ⚙️ **Advanced Flags:** Akses cepat ke `--parse-errors`, `--smart`, `--hex`, `--dbms`, dan `--csrf-token`.<br>
+- 📱 **Termux-Ready:** Deteksi otomatis layar sempit, path `$HOME`, dan fitur `termux-wake-lock` agar scan tidak terputus saat layar mati.<br>
+- 📄 **Export Laporan:** Simpan hasil pentest ke format Markdown (`.md`) atau Text (`.txt`).<br>
+- 💾 **Session Save/Load:** Simpan konfigurasi target, lanjutkan kapan saja tanpa setup ulang.<br>
+</p>
+</div>
 ---
 
 ## 📦 Panduan Instalasi
@@ -198,7 +199,7 @@ Dibuat dengan antarmuka interaktif yang modern, mendukung *Session Management*, 
 Pilih sistem operasi yang Anda gunakan:
 
 ### 🐧 1. Instalasi di Linux (Debian/Ubuntu/Kali)
-```bash
+
 # 1. Update repositori
 sudo apt update && sudo apt install -y git curl python3 python3-pip
 
@@ -263,15 +264,15 @@ bash
 
 Alur Penggunaan Cepat:
 
-    Pilih s untuk Set Target. Masukkan URL target Anda.
+ 1.   Pilih s untuk Set Target. Masukkan URL target Anda.
 
-    Pilih 1 untuk Deteksi Dasar.
+ 2.   Pilih 1 untuk Deteksi Dasar.
 
-    Jika terdeteksi WAF, gunakan menu 5 (WAF Bypass).
+ 3.   Jika terdeteksi WAF, gunakan menu 5 (WAF Bypass).
 
-    Gunakan menu 2 (Enumerasi) atau d (Dump) untuk mengekstrak data.
+ 4.   Gunakan menu 2 (Enumerasi) atau d (Dump) untuk mengekstrak data.
 
-    Pilih x di akhir sesi untuk Export Laporan.
+ 5.   Pilih x di akhir sesi untuk Export Laporan.
 
 B. Mode Batch (Untuk Otomasi / Pipeline CI/CD)
 
@@ -323,5 +324,8 @@ x	Export Laporan	Menyimpan log aktivitas dan metadata target ke .md / .txt.
 
     3. Penulis (Pixel_Detective) TIDAK BERTANGGUNG JAWAB atas segala penyalahgunaan alat ini. Segala risiko ditanggung oleh pengguna.
 
-    <div align="center"> <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> </div> 
+    
+     <div align="center"> 
+      <i>Dibuat dengan ❤️ oleh <b>Pixel_Detective</b> untuk komunitas keamanan siber.</i> 
+     </div> 
 
